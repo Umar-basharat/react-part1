@@ -39,4 +39,4 @@ jobs:
       - name: install surge 
         run: npm install -g surge 
       - name: deploy web 
-        run: surge ./build awara.surge.sh --token ${{ secrets.SURGE_TOKEN }}    
+        run: surge ./build awara.surge.sh --token ${{ secrets.SURGE-TOKEN }}    
