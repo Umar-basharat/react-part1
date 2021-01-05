@@ -1,6 +1,5 @@
 // import logo from './logo.svg';
 import './App.css';
-import Icode from './icode.js'
 
 function App() {
   return (
@@ -9,7 +8,6 @@ function App() {
     </div>
   );
 }
-import { import } from '@babel/types';
 
 
 export default App;
