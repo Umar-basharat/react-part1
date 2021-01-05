@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import { React } from "react";
 import './App.css';
-// import  Winter  from './winter.js';
+ import  iCode  from './icode.js';
 
 
 function App(props) {
@@ -9,6 +9,7 @@ function App(props) {
     <div className="App">
     <h1>Umar Basharat iCode {props.dishname}</h1>
     </div>
+<iCode weather="pakistan is a beautiful country " />
   );
 }
 
